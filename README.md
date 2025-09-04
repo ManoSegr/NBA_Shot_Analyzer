@@ -78,7 +78,13 @@ cd NBA_Shot_Analyzer
 
 Install dependencies:
 
+### 🚀 Quick Start
+
+```bash
+git clone https://github.com/ManoSegr/NBA_Shot_Analyzer.git
+cd NBA_Shot_Analyzer
 pip install -r requirements.txt
+python main.py
 
 ## 🗂 Demo Dataset
 A lightweight demo dataset is included for immediate testing:
