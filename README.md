@@ -41,13 +41,18 @@ It combines official NBA datasets with a custom-built GUI and filtering system t
 ## Project Structure
 ```bash
 NBA_Shot_Analyzer/
-│── mainwindow.py         # PyQt6 UI – Main application window
-│── nba_data_manager.py   # Data management (NBA API + CSV datasets + team/player mapping)
-│── nba_filter_engine.py  # Advanced filtering engine (home/away, rest days, streaks, etc.)
-│── nba_shot_analyzer.py  # Core analytics + heatmap + zone calculator + court drawing
-│── Background_image.jpg  # Court background image
-│── Screenshot 2025-08-20 152037.png  # Demo screenshot
-│── requirements.txt      # Python dependencies
+│── Background_image.jpg # Court background image
+│── README.md # Project documentation
+│── Screenshot.png # App screenshot (GUI + heatmap)
+│── mainwindow.py # PyQt6 UI – Main application window
+│── nba_data_manager.py # Data management (NBA API + CSV datasets + team/player mapping)
+│── nba_filter_engine.py # Filtering engine (game context, rest days, streaks, etc.)
+│── nba_shot_analyzer.py # Core analysis + heatmap + shot zone calculations + court drawing
+│── requirements.txt # Python dependencies
+│
+└── nba_data/
+└── datasets/
+└── shotdetail_2023_Stephen.csv # Demo dataset (Stephen Curry shots, 2023 season)
 
 Tech Stack
 
