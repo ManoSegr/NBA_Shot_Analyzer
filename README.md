@@ -75,12 +75,12 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-Demo Dataset
-For demonstration purposes, a small dataset is provided:
+## 🗂 Demo Dataset
+A lightweight demo dataset is included for immediate testing:
 
-- `nba_data/datasets/shotdetail_2023_Stephen.csv` → Stephen Curry 2023 season shots.
+- `nba_data/datasets/shotdetail_2023_Stephen.csv` → Stephen Curry shots (2023 season)
 
-This allows the app to run immediately without needing to download full NBA datasets.
+This allows the app to run directly without downloading the full NBA datasets.
 
 
 Run the app:
